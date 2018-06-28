@@ -1,28 +1,54 @@
 .App {
   text-align: center;
+  background-color: #f2f2f2;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.ComBg {
+  width: 200px;
+  background-color: antiquewhite;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.navbar a {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  background: skyblue;
 }
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
+.navbar:hover {
   font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.navbar a.active {
+  background-color: greenyellow;
+}
+.navbar a.hover{
+  background-color: aliceblue;
+}
+.navbar a:hover{
+  background-color: #f2f2f2;
+}
+.TheG {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  color: #f00;
+}
+.TheG:hover{
+   background-color: #0f0;
+ }
+div:hover{
+  background-color: #0f0;
+}
+.TheG:active{
+  background-color: blue;
+}
+.content{
+  margin-left: 0px;
+}
+.reactAnim-enter{
+  margin-left: -200px;
+  transition-duration: 500ms;
+}
+.reactAnim-enter-active {
+  margin-left: 0px;
+}
+.active{
+  width: 300px;
 }
