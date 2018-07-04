@@ -1,0 +1,37 @@
+.Home {
+    text-align: center;
+}
+.TitleBg {
+    background-color: white;
+}
+.homeContainer {
+    border: 1px solid red;
+    margin:  0 auto;
+    width: 962px;
+}
+.topNavi {
+
+    width: 960px;
+    height:40px;
+    background-color: pink;
+    margin-bottom: 5px;
+}
+.banner {
+
+    width: 960px;
+    height:160px;
+    background-color: green;
+}
+#content {
+
+    width: 960px;
+    height: 600px;
+    background-color: #abcdef;
+    margin:10px 5px;
+}
+#footer{
+
+    width: 960px;
+    height: 50px;
+    background-color: gray;
+}
