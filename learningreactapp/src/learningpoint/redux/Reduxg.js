@@ -50,12 +50,12 @@ const reducer = combineReducers({
 const store = createStore(reducer,{list:[]},applyMiddleware(thunk));
 
 // const state = store.getState();
-
+store.subscribe(renderPage);
 function renderPage () {
   console.log("renderPage -- Action -- finish - 刷新界面")
 }
 
-store.subscribe(renderPage);
+
 
 
 

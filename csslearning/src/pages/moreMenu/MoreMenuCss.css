@@ -1,9 +1,11 @@
 body{
     font:12px/1.5 arial;
 }
+
 #container{
     position: static;
     width: 960px;
+    height: 32px;
     border: 2px solid black;
     margin: 0 auto;
 }
@@ -11,12 +13,12 @@ body{
     float: left;
     border:1px solid red;
     width: 500px;
-    height: 200px;
 }
 .test1 li{
-    /*border:1px solid blue;*/
+    border:1px solid blue;
     float: left;
     position: relative;
+
 }
 .test1 li a{
     display: block;
@@ -44,12 +46,18 @@ body{
 }
 .menu dl dd{
     display: block;
-    position: absolute;
     border-bottom: 1px solid pink;
     width:100px;
-    height: 100px;
+    height: 30px;
     top: 30px;
-    /*display: none;*/
+}
+.menu dl > div {
+    position: absolute;
+    display: none;
+    top: 100%;
+}
+.menu dl:hover > div {
+    display: block;
 }
 
 dd a:lang("1"){
@@ -62,25 +70,22 @@ dd a:lang("2"){
 dd a:lang("3"){
     top: 230px;
 }
-/*.menu:hover dd{*/
-    /*display: block;*/
-    /*overflow: inherit;*/
-    /*position: absolute;*/
-/*}*/
-/*.menu:hover dt{*/
-    /*border-bottom: 1px solid pink;*/
-    /*position: relative;*/
-/*}*/
-/*.menu:hover {*/
-    /*border: 1px solid pink;*/
-/*}*/
+.menu:hover dd{
+    display: block;
+}
+.menu:hover dt{
+    border-bottom: 1px solid pink;
+}
+.menu:hover {
+    border: 1px solid pink;
+}
 
 .box0{
     /*注释这行看效果*/
     position: relative;
     left: 10px;
     top:10px;
-    margin-top: 12px;
+    margin-top: 120px;
     border: 1px solid pink;
     background-color: #f2f2f2;
 }

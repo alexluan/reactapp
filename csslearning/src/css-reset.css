@@ -89,4 +89,6 @@ html {
 *{
     text-decoration: none;
     text-decoration-line: none;
+    /*计算高度*/
+    box-sizing: border-box;
 }

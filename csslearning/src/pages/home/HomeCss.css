@@ -30,8 +30,31 @@
     margin:10px 5px;
 }
 #footer{
-
     width: 960px;
-    height: 50px;
+    /*height: 50px;*/
     background-color: gray;
+}
+
+#footerbottom{
+    width: 960px;
+    margin-top: 20px;
+    /*height: 50px;*/
+    background-color: blue;
+}
+.l_footer{
+    border:1px solid orange;
+    display: inline-block;
+    float: left;
+    width: 900px;
+    height: 50px;
+    background-color: #abcdef;
+}
+
+.r_footer{
+    display: inline-block;
+    border:1px solid orange;
+    float: left;
+    width: 60px;
+    height: 50px;
+    background-color: red;
 }

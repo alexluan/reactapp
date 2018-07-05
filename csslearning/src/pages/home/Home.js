@@ -12,8 +12,16 @@ class Home extends Component {
           <div className="topNavi"></div>
           <div className="banner"></div>
           <div id="content"></div>
-          <div id="footer"></div>
+          <div id="footer">
+
+          </div>
         </div>
+
+        <div id="footerbottom" className="clearfix">
+          <div className="l_footer"></div>
+          <div className="r_footer"></div>
+        </div>
+
       </div>
     );
   }

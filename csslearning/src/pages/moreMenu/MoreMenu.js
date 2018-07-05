@@ -8,7 +8,7 @@ class MoreMenu extends Component {
   render() {
     return (
       <div>
-        <div id="container" className="clearfix">
+        <div id="container">
         <ul className="test1">
           <li><a href="#">首页1</a></li>
           <li><a href="#">首页2</a></li>
