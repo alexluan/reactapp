@@ -7,6 +7,7 @@ import News from './pages/News/News'
 import Souhu from './pages/souhuweb/Souhu'
 import Tencent from './pages/tencent/Tencent'
 import MoreMenu from './pages/moreMenu/MoreMenu'
+import NameSpace from './pages/namespace/NameSpace'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route exact path="/moremenu" component={MoreMenu}></Route>
             <Route exact path="/news" component={News}></Route>
             <Route exact path="/souhu" component={Souhu}></Route>
+            <Route exact path="/namespace" component={NameSpace}></Route>
             <Redirect from='/' to='/'></Redirect>
           </Switch>
         </Router>
