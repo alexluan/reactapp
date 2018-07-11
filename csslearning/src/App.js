@@ -10,6 +10,12 @@ import MoreMenu from './pages/moreMenu/MoreMenu'
 import NameSpace from './pages/namespace/NameSpace'
 
 class App extends Component {
+  testJavascriptHandler = (one,two)=> {
+    console.log("aaaatestJavascriptHandler")
+  }
+  shareResult = ()=>{
+    console.log("aaaatestJavascriptHandler")
+  }
   render() {
     return (
       <div className="App">

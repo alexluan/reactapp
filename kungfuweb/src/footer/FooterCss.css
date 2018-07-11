@@ -1,0 +1,20 @@
+
+.footer{
+    border-top: 1px dashed rgb(225,195,153);
+    height: 99px;
+}
+.address{
+
+    white-space: pre;
+    text-align: center;
+    font-size: 14px;
+    color: #a2744b;
+    font-weight: 700;
+
+}
+.footerContainer{
+    position: relative;
+    top:30px;
+    margin:0 auto;
+    width: 960px;
+}
