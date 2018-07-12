@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import History from './history/History'
+import Default from './default/Default'
 import Footer from '../footer/Footer'
 var styles = require('./HomeCss.css')
 
@@ -112,8 +113,12 @@ class Home extends Component {
         </div>
         <div id={styles.bodycontainer} ref="webcontainer" className="clearfix">
 
-            <History ref="history" name={this.state.historyname} pageindex={this.state.activeIndex}/>
 
+          {
+            (this.state.activeIndex === 1)?<History ref="history" name={this.state.historyname} pageindex={this.state.activeIndex}/>
+            :(this.state.activeIndex === 2)?<History ref="history" name={this.state.historyname} pageindex={this.state.activeIndex}/>
+            :<Default/>}
+            }
         </div>
         <Footer/>
       </div>

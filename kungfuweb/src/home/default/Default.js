@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
-import styles from './HistoryCss.css'
+import styles from './DefaultCss.css'
 
-class History extends Component {
+class Default extends Component {
   constructor(props){
     super(props)
 
@@ -28,4 +28,4 @@ class History extends Component {
   }
 }
 
-export default History;
+export default Default;

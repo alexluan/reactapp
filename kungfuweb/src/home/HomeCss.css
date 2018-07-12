@@ -3,16 +3,17 @@
     background-color: #abcdef;
     background-image: url(../images/body-bg.png);
     background-repeat: repeat;
+    min-width: 980px;
 }
 .header{
     position: relative;
+
     height: 216px;
-    background-color: #abcdef;
     background-position: 50% 0;
     border-bottom: 1px solid #cba483;
     border-bottom: 1px solid #cba483;
     background-image: url(../images/hd-bg.jpg);
-    background-repeat: no-repeat;
+    background-repeat: space;
 }
 #contaiter{
     position: relative;

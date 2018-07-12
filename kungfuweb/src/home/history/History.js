@@ -77,6 +77,7 @@ class History extends Component {
 
           </div>
           <div className={styles.pageright}>
+            {"pageindex:--"+this.props.pageindex}
             <div dangerouslySetInnerHTML={{__html: content}}></div>
           </div>
         </div>
