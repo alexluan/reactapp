@@ -107,8 +107,8 @@
       <file leaf-file-name="HistoryCss.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/home/history/HistoryCss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="390">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -183,8 +183,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="759" />
-    <option name="y" value="96" />
+    <option name="x" value="718" />
+    <option name="y" value="97" />
     <option name="width" value="1506" />
     <option name="height" value="945" />
   </component>
@@ -284,12 +284,12 @@
       <workItem from="1531119790454" duration="29679000" />
       <workItem from="1531273562910" duration="16304000" />
       <workItem from="1531383821973" duration="2957000" />
-      <workItem from="1531450265396" duration="540000" />
+      <workItem from="1531450265396" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49480000" />
+    <option name="totallyTimeSpent" value="49799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,7 +301,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="759" y="96" width="1506" height="945" extended-state="0" />
+    <frame x="718" y="97" width="1506" height="945" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22154883" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
@@ -703,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home/history/HistoryCss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="390">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding />
         </state>
       </provider>
