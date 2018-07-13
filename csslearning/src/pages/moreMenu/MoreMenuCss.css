@@ -116,3 +116,55 @@ dd a:lang("3"){
     height: 100px;
     background-color: orange;
 }
+.boox0 {
+    display: flex;
+    flex-direction:row;
+
+    justify-content: flex-start;
+    align-items: stretch;
+
+    /*align-content:flex-start;*/
+
+    width: 500px;
+    height: 500px;
+    background-color: #abcdef;
+}
+.boox1 {
+    width: 300px;
+    /*height: 200px;*/
+    background-color: red;
+}
+.boox2 {
+    /*display: flex;*/
+    /*margin-right: 0px;*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*width: 100%;*/
+    flex-grow:1;
+    background-color: orange;
+}
+.boox11 {
+    width: 100px;
+    /*height: 100px;*/
+    background-color: green;
+}
+.boox21 {
+    /*display: flex;*/
+    /*margin-right: 0px;*/
+    width: 100px;
+    /*height: 100px;*/
+    background-color: blue;
+}
+.boox12 {
+    width: 100px;
+    /*height: 100px;*/
+    background-color: blue;
+}
+.boox22 {
+    /*display: flex;*/
+    /*margin-right: 0px;*/
+    width: 100px;
+    /*height: 100px;*/
+    background-color: green;
+}
+
